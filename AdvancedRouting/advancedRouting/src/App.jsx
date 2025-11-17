@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
 import Navbar from './Components/Navbar.jsx'
+import Navbar2 from './Components/Navbar2.jsx'
 import Footer from './Components/footer.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
@@ -20,7 +21,7 @@ function App() {
     <>
     <div className="h-screen bg-black text-white">
      <Navbar/>
-
+    <Navbar2/>
    <Routes>
      <Route  path='/'  element={<Home/>}/>
       <Route  path='/about'  element={<About/>}/>
