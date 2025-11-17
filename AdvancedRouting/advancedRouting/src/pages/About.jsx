@@ -11,6 +11,13 @@ const About = () => {
   return (
     <div>
         <button 
+        onClick={()=>{
+         Navigate(-1)
+        }}
+        className='bg-emerald-800 px-5 py-2 rounded m-2 cursor-pointer active:scale-95'
+        >Back</button>
+
+        <button
         onClick={btnClicked}
         className='bg-emerald-800 px-5 py-2 rounded m-2 cursor-pointer active:scale-95'
         >Return to Home page</button>
