@@ -1,0 +1,22 @@
+*{
+  padding :0;
+ margin :0;
+  box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: gray;
+}
+button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 20px;
+
+
+}
+h1{
+    font-size: 3rem;
+}
