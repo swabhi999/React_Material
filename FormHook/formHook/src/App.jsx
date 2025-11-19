@@ -1,26 +1,17 @@
-import { useState } from 'react'
-import { useForm } from "react-hook-form"
-import React from 'react'
-import './App.css'
+import React from "react";
+import "./App.css";
+import FeedbackSystem from "./devotee";
 
-function App() {
-    const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm()
+const title = "Code Review Feedback";
 
-
- 
+const App = () => {
   return (
-    <>
-<div className="bg-cyan-600 w-screen h-screen  flex justify-center items-center ">
+    <div className="App ">
+      <nav>{title}</nav>
+      <FeedbackSystem />
+    </div>
+  );
+};
 
-
-</div>
-    </>
-  )
-}
 
 export default App
