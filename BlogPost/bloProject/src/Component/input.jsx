@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function PostForm({ onCreatePost }) {
+    
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
 
@@ -22,7 +23,9 @@ function PostForm({ onCreatePost }) {
       onSubmit={handleSubmit}
       className="bg-white/60 border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition w-full"
     >
-      <h2 className="text-xl font-semibold text-indigo-700 mb-4">Create a new post</h2>
+      <h2 className="text-xl font-semibold text-indigo-700 mb-4">
+        Create a new post
+      </h2>
 
       <label className="block mb-3">
         <span className="text-sm text-gray-600">Title</span>
