@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import ArticleRow from "./Articlerow";
 
-const Articales = ({ articles, onDelete, onUpvote }) => {
+const Articales = ({ articles, onDelete, onUpvote,onAdd }) => {
   const [sortType, setSortType] = useState("upvotes");
 
   const sortedArticles = [...articles].sort((a, b) => {
@@ -67,6 +67,7 @@ const Articales = ({ articles, onDelete, onUpvote }) => {
                 onUpvote={onUpvote}
                 onDelete={onDelete}
                 isEven={index % 2 === 0}
+                onAdd={onAdd}
               />
             ))}
           </tbody>
