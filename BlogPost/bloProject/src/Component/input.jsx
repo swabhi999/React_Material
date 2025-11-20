@@ -62,7 +62,7 @@ function PostForm({ onCreatePost }) {
 
         <button
           type="submit"
-          className="px-5 py-2 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold shadow-md hover:shadow-lg transition"
+          className="px-5 py-2 rounded-lg bg-linear-to-r from-indigo-500 to-purple-500 text-white font-semibold shadow-md hover:shadow-lg transition"
         >
           Publish
         </button>

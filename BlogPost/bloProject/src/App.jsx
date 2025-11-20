@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-indigo-50 p-8 flex flex-col items-center">
+    <div className="min-h-screen bg-linear-to-br from-gray-50 to-indigo-50 p-8 flex flex-col items-center">
       <header className="w-full max-w-4xl mb-8">
         <div className="backdrop-blur-sm bg-white/60 border border-gray-200 rounded-2xl p-6 shadow-sm flex items-center justify-between">
           <div>
