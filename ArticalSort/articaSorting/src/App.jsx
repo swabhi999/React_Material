@@ -5,12 +5,9 @@ import Articles from './Component/Articales'
 import AddArticleModal from './Component/AddArticle'
 
 function App() {
- const [article, setArtical] = useState([{
-  id: Date.now(),
-  upvotes: 1,
-  date: new Date(),
-  title: "my name is khan"
- }]);
+
+
+ const [article, setArtical] = useState([]);
 
  const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -41,7 +38,7 @@ function App() {
     <div className="text-center mb-8">
      <h1 className="text-4xl font-bold text-white mb-4">📰 Article Manager</h1>
      <button 
-      onClick={() => setIsModalOpen(true)}
+      onClick={() => setIsModalOpen(true)}  // sets the mode open state to true
       className="bg-white hover:bg-gray-100 text-purple-600 font-bold py-3 px-8 rounded-lg shadow-lg transform hover:scale-105 transition duration-300"
      >
       ➕ Add New Article
