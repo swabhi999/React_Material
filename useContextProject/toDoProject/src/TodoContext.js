@@ -1,4 +1,3 @@
 import { createContext } from "react";
-
-// 1) Create the context object
+// TodoContext.js
 export const TodoContext = createContext(null);
